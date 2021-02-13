@@ -5,9 +5,11 @@
 - [異常検知](#AnomalyDetection)
 - [少量データによる学習](#LowData)
 - [画像変換](#Image2Image)
-- 音声ドメイン
+- ドメイン別
   - 音声合成
   - 声質変換
+  - 言語
+  - その他
 
 <a id="HighReso"></a>
 ## 高解像度系
