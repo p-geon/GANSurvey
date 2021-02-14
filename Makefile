@@ -9,6 +9,18 @@ p: ## git (add->commit->push)
 	)
 	@git push origin main
 
+export DIR_MD=contents
+export MD_CONTENTS=`\find ./$(DIR_MD) -name '*.md' | sort`
+
+generate:
+	@cat ./_index.md > README.md
+	@echo "\n\n" >> README.md
+	@for f in $(MD_CONTENTS); do\
+		echo $$f;\
+		cat $$f >> README.md;\
+		echo "\n\n" >> README.md;\
+	done
+
 # help
 .PHONY:	h
 h:	## this help
