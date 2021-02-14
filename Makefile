@@ -1,16 +1,14 @@
+export COMMIT_MESSAGE=autocommit > README.md
+export IF_COMMIT_MESSAGE=`git commit -m`
+export IF_NO_COMMIT_MESSAGE=`git commit -m "mod: $(COMMIT_MESSAGE)"`
 p: ## git (add->commit->push)
 	@git add README.md
-	@git commit -m $m
+	@echo $(if $(m)\
+		, $(IF_COMMIT_MESSAGE) "$(m)"\
+		, $(IF_NO_COMMIT_MESSAGE)\
+	)
 	@git push origin main
 
-export a=`git commit -m`
-export b=`git commit -m "mod: autocommit"`
-cond: ##
-	@git add -A
-	@echo $(if $(m)\
-		, $(a) "$(m)"\
-		, $(b)\
-	)
 # help
 .PHONY:	h
 h:	## this help
