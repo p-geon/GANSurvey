@@ -4,6 +4,7 @@
 
 - MelGAN
 - MBMelGAN
+- StyleMelGAN
 
 ## 音声合成
 
