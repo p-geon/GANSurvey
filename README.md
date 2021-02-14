@@ -1,25 +1,63 @@
 # GAN Survey
 
 
+## Dataset
+
+GANでよく使われるデータセットまとめ
+
+- noise -> image
+    - MNIST
+    - cifar-10
+    - ImageNet
+- image -> image
+    - apple2orange
+    - facade
+- text
+- audio
+- textures
+    - [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+
+
+<a id="Basis"></a>
+
 ## 基礎GAN
 
 - [GAN](https://arxiv.org/abs/1406.2661)
+- [DCGAN](https://arxiv.org/abs/1511.06434)
 
+##### Conditional GAN
 
-## 基礎
+- [cGAN](https://arxiv.org/abs/1411.1784)
 
-**データ拡張**
+##### GAN-variant
 
-- [Image Augmentations for GAN Training](https://arxiv.org/abs/2006.02595)
+- [InfoGAN](https://arxiv.org/abs/1606.03657), NIPS2016
+    - [ss-InfoGAN](https://arxiv.org/abs/1707.04487), CVPR201?
+- [f-GAN](https://arxiv.org/abs/1606.00709)
+- [EBGAN](https://arxiv.org/abs/1609.03126)
+- [UnrolledGAN](https://arxiv.org/abs/1611.02163), ICLR2017
+- [DRAGAN](https://arxiv.org/abs/1705.07215)
+- [Dirac-GAN](https://arxiv.org/abs/1801.04406)
 
+##### ロス設計
 
+- [LSGAN](https://arxiv.org/abs/1611.04076)
+    - pros/cons
+- [LSGAN-gp](https://arxiv.org/abs/1712.06391)
+- [WGAN](https://arxiv.org/abs/1701.07875)
+- [WGAN-gp](https://arxiv.org/pdf/1704.00028.pdf)
 
+##### 出力構造
 
-<a id="LowData"></a>
+- [ACGAN](https://arxiv.org/abs/1610.09585)
+- [cGANs with Projection Discriminator](https://arxiv.org/abs/1802.05637)
 
-## 少量データによる学習
+##### Discriminator
 
-- SinGAN
+- [Relativistic Discriminator](https://arxiv.org/abs/1807.00734)
+- [U-Net GAN](https://arxiv.org/pdf/2002.12655.pdf), CVPR2020
+
+##### Glow
 
 
 <a id="Metrics"></a>
@@ -37,8 +75,12 @@
 
 ## Normalization
 
+- [Batch Normalization](https://arxiv.org/abs/1502.03167)
+- [Instance Normalization](https://arxiv.org/abs/1607.08022)
+- [Layer Normalization](https://arxiv.org/abs/1607.06450)
+- [Spectral Normalization](https://arxiv.org/abs/1802.05957)
 - [AdaIN](https://arxiv.org/abs/1703.06868.pdf)
-
+- [SPADE](https://arxiv.org/abs/1903.07291)
 
 
 <a id="Stability"></a>
@@ -48,6 +90,32 @@
 - [Smoothness and Stability in GANs](https://openreview.net/forum?id=HJeOekHKwr), 19.09
 
 <a id="AnomalyDetection"></a>
+
+
+##### ロバストなGAN
+
+- [RoCGAN](https://arxiv.org/pdf/1805.08657.pdf), ICLR2019
+- [RcGAN](https://arxiv.org/pdf/1811.03205.pdf), NeurIPS2018
+
+
+<a id="Augmentation"></a>
+
+## データ拡張
+
+**データ拡張**
+
+- [Data Augmentation Generative Adversarial Networks](https://arxiv.org/abs/1711.04340)
+- [Image Augmentations for GAN Training](https://arxiv.org/abs/2006.02595)
+
+
+<a id="LowData"></a>
+
+## 少量データによる学習
+
+- [SinGAN](https://arxiv.org/abs/1905.01164), ICCV2019**bestpaper**
+- [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2006.10738)
+- [Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis](https://arxiv.org/abs/2101.04775.pdf), ICLR2021(poster)
+- [Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676.pdf), NeurIPS2020
 
 
 <a id="HighReso"></a>
@@ -76,21 +144,28 @@
 
 
 
+<a id="SuperResolution"></a>
+
 ## 超解像
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
 
 
 
+<a id="Voice"></a>
+
 ## 声質変換
 
 - MelGAN
 - MBMelGAN
+- StyleMelGAN
 
 ## 音声合成
 
 - GANTTS
 
+
+<a id="Anomaly"></a>
 
 ## 異常検知
 
@@ -101,11 +176,15 @@
 rename 's/\app$/dom/' *.md
 
 
+<a id="Brain"></a>
+
 ## 脳
 
 - [CS-GAN](https://arxiv.org/abs/2102.04456v1)
 
 
+
+<a id="Material"></a>
 
 ## 物性
 
@@ -113,10 +192,14 @@ rename 's/\app$/dom/' *.md
 
 
 
-##### NAS
+<a id="NAS"></a>
+
+## NAS
 
 - [AutoGAN](https://arxiv.org/abs/1908.03835)
 
+
+<a id="Pose"></a>
 
 ## ポーズ系
 
@@ -124,6 +207,7 @@ rename 's/\app$/dom/' *.md
 
 
 
+<a id="Reinforcement"></a>
 
 ## 強化学習
 
@@ -132,8 +216,14 @@ rename 's/\app$/dom/' *.md
 
 
 
-##### VAE
+<a id="VAE"></a>
+
+## VAE
 
 - VAE-GAN
+
+## Flow
+
+- [Flow-GAN](https://arxiv.org/abs/1705.08868)
 
 
