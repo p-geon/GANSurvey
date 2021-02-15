@@ -1,2 +1,3 @@
 *.log
 /citation/*.csv
+__pycache__
