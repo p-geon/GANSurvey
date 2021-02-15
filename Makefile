@@ -1,3 +1,6 @@
+# ENVs
+export PWD=`pwd`
+# -----------------------------------
 export COMMIT_MESSAGE=autocommit > README.md
 export IF_COMMIT_MESSAGE=`git commit -m`
 export IF_NO_COMMIT_MESSAGE=`git commit -m "mod: $(COMMIT_MESSAGE)"`
@@ -9,9 +12,9 @@ p: ## git (add->commit->push)
 	)
 	@git push origin main
 
+# -----------------------------------
 export DIR_MD=contents
 export MD_CONTENTS=`\find ./$(DIR_MD) -name '*.md' | sort`
-
 generate:
 	@cat ./_index.md > README.md
 	@echo "\n\n" >> README.md
@@ -21,11 +24,20 @@ generate:
 		echo "\n\n" >> README.md;\
 	done
 
-# poetry
-install:
-	@curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
-	@poetry self:update
+# -----------------------------------
+# citation
+export NAME_CONTAINER=get_citation
+export DIR_CITATION=citation
 
+.PHONY: b
+b: ## build notebook & lab 
+	cd $(DIR_CITATIOn) &&\
+	docker build -f ./Dockerfile -t $(NAME_CONTAINER) .
+.PHONY: r
+r: ## run jupyter notebook
+	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ $(NAME_CONTAINER)
+
+# -----------------------------------
 # help
 .PHONY:	h
 h:	## this help
