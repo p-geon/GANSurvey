@@ -38,8 +38,10 @@ b: ## build
 	docker build -f ./Dockerfile -t $(NAME_CONTAINER) .
 r: ## run
 	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ $(NAME_CONTAINER)
-lab: ## jupyter lab
-	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ -p 8888:8888 $(NAME_CONTAINER)
+R-notebook: ## jupyter lab (with R-Kernel)
+	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ -p 8888:8888 jupyter/r-notebook
+	#docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ -p 8888:8888 $(NAME_CONTAINER)
+
 # -----------------------------------
 # controller
 export NONE_DOCKER_IMAGES=`docker images -f dangling=true -q`

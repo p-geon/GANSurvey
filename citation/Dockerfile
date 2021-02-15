@@ -17,4 +17,5 @@ RUN pip install -r requirements.txt -q
 WORKDIR ${WORKDIR}
 # ENTRYPOINT ["/bin/bash"]
 # ENTRYPOINT ["python3", "./main.py"]
+EXPOSE 8888
 ENTRYPOINT ["jupyter", "lab", "--port", "8888", "--ip=0.0.0.0", "--allow-root"]
