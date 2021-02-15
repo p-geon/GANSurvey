@@ -1,29 +1,13 @@
 # GAN Survey
 
 
-## Dataset
-
-GANでよく使われるデータセットまとめ
-
-- noise -> image
-    - MNIST
-    - cifar-10
-    - ImageNet
-- image -> image
-    - apple2orange
-    - facade
-- text
-- audio
-- textures
-    - [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
-
-
 <a id="Basis"></a>
 
 ## 基礎GAN
 
 - [GAN](https://arxiv.org/abs/1406.2661)
 - [DCGAN](https://arxiv.org/abs/1511.06434)
+- [LAPGAN](https://arxiv.org/abs/1506.05751), CVPR
 
 ##### Conditional GAN
 
@@ -57,7 +41,6 @@ GANでよく使われるデータセットまとめ
 - [Relativistic Discriminator](https://arxiv.org/abs/1807.00734)
 - [U-Net GAN](https://arxiv.org/pdf/2002.12655.pdf), CVPR2020
 
-##### Glow
 
 
 <a id="Metrics"></a>
@@ -118,6 +101,23 @@ GANでよく使われるデータセットまとめ
 - [Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676.pdf), NeurIPS2020
 
 
+## Dataset
+
+GANでよく使われるデータセットまとめ
+
+- noise -> image
+    - MNIST
+    - cifar-10
+    - ImageNet
+- image -> image
+    - apple2orange
+    - facade
+- text
+- audio
+- textures
+    - [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+
+
 <a id="HighReso"></a>
 
 ## 高解像度系
@@ -173,8 +173,6 @@ GANでよく使われるデータセットまとめ
 - [Dual Auto-Encoders GAN]()
 - [Anomaly Detection by One Class Latent Regularized Networks](https://arxiv.org/abs/2002.01607)
 
-rename 's/\app$/dom/' *.md
-
 
 <a id="Brain"></a>
 
@@ -207,6 +205,9 @@ rename 's/\app$/dom/' *.md
 
 
 
+## 
+
+
 <a id="Reinforcement"></a>
 
 ## 強化学習
@@ -225,5 +226,24 @@ rename 's/\app$/dom/' *.md
 ## Flow
 
 - [Flow-GAN](https://arxiv.org/abs/1705.08868)
+
+
+----
+
+# Reading List
+
+- Semi-Supervised GAN, [paper](https://arxiv.org/pdf/1606.01583.pdf)
+- Efficient Conditional GAN Transfer with Knowledge Propagation across Classes, [paper](https://arxiv.org/abs/2102.06696)
+- Few-Shot Adversarial Learning of Realistic Neural Talking Head Models, [paper](https://arxiv.org/abs/1905.08233)
+- Dual-Agent GAN, [paper](https://proceedings.neurips.cc/paper/2017/file/7cbbc409ec990f19c78c75bd1e06f215-Paper.pdf)/[poster](https://zhaoj9014.github.io/pub/ZHAOJIAN_ID70.pdf)
+
+## Quantum
+
+- Quantum GAN, [paper](https://arxiv.org/abs/1804.08641)
+- Quantum generative adversarial learning in a superconducting quantum circuit, [paper](https://advances.sciencemag.org/content/5/1/eaav2761/tab-pdf)
+
+## 軽量化
+
+- GAN Slimming: All-in-One GAN Compression by A Unified Optimization Framework, [paper](https://arxiv.org/abs/2008.11062)
 
 
