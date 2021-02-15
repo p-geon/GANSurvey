@@ -13,6 +13,7 @@ requests==2.25.1
 ## https://pypi.org/project/arxiv/
 arxiv==0.5.3
 ## https://pypi.org/project/scholarly/
+## -> Document: https://scholarly.readthedocs.io/en/stable/scholarly_user.html
 scholarly==1.0.7
 ## https://pypi.org/project/paperscraper/
 paperscraper==0.0.1
@@ -20,3 +21,6 @@ paperscraper==0.0.1
 # handling PDF
 pdf2image==1.14.0
 poppler-utils==0.1.0
+
+# Notebook
+jupyterlab==3.0.7

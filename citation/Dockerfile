@@ -15,5 +15,6 @@ RUN pip install -q --upgrade pip
 RUN pip install -r requirements.txt -q
 
 WORKDIR ${WORKDIR}
-#ENTRYPOINT ["/bin/bash"]
-ENTRYPOINT ["python3", "./use_bs.py"]
+# ENTRYPOINT ["/bin/bash"]
+# ENTRYPOINT ["python3", "./main.py"]
+ENTRYPOINT ["jupyter", "lab", "--port", "8888", "--ip=0.0.0.0", "--allow-root"]

@@ -5,6 +5,7 @@ export COMMIT_MESSAGE=autocommit > README.md
 export IF_COMMIT_MESSAGE=`git commit -m`
 export IF_NO_COMMIT_MESSAGE=`git commit -m "mod: $(COMMIT_MESSAGE)"`
 p: ## git (add->commit->push)
+	@make generate
 	@git add README.md
 	@echo $(if $(m)\
 		, $(IF_COMMIT_MESSAGE) "$(m)"\
@@ -32,12 +33,26 @@ export DIR_CITATION=citation
 br: ## build&run
 	@make b
 	@make r
-b: ## build notebook & lab 
+b: ## build
 	cd $(DIR_CITATION) &&\
 	docker build -f ./Dockerfile -t $(NAME_CONTAINER) .
-r: ## run jupyter notebook
+r: ## run
 	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ $(NAME_CONTAINER)
+lab: ## jupyter lab
+	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ -p 8888:8888 $(NAME_CONTAINER)
+# -----------------------------------
+# controller
+export NONE_DOCKER_IMAGES=`docker images -f dangling=true -q`
+export STOPPED_DOCKER_CONTAINERS=`docker ps -a -q`
 
+.PHONY: clean
+clean: ## clean images&containers
+	-@make clean-images
+	-@make clean-containers
+clean-images:
+	docker rmi $(NONE_DOCKER_IMAGES) -f
+clean-containers:
+	docker rm -f $(STOPPED_DOCKER_CONTAINERS)
 # -----------------------------------
 # help
 h:	## this help
