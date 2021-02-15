@@ -1,0 +1,11 @@
+# GP
+tqdm==4.54.0
+easydict==1.9
+
+# base
+numpy==1.19.5
+scikit-image==0.18.1
+
+# handling PDF
+pdf2image==1.14.0
+poppler-utils==0.1.0
