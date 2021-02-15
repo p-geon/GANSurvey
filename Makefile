@@ -29,16 +29,16 @@ generate:
 export NAME_CONTAINER=get_citation
 export DIR_CITATION=citation
 
-.PHONY: b
+br: ## build&run
+	@make b
+	@make r
 b: ## build notebook & lab 
 	cd $(DIR_CITATION) &&\
 	docker build -f ./Dockerfile -t $(NAME_CONTAINER) .
-.PHONY: r
 r: ## run jupyter notebook
 	docker run -it --rm -v $(PWD)/$(DIR_CITATION):/work/ $(NAME_CONTAINER)
 
 # -----------------------------------
 # help
-.PHONY:	h
 h:	## this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'

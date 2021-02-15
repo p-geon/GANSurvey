@@ -5,6 +5,7 @@ easydict==1.9
 # base
 numpy==1.19.5
 scikit-image==0.18.1
+pandas==0.23.4
 
 # scrapers
 beautifulsoup4==4.9.3

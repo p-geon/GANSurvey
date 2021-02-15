@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt -q
 
 WORKDIR ${WORKDIR}
 #ENTRYPOINT ["/bin/bash"]
-ENTRYPOINT ["python3", "./get_citation.py"]
+ENTRYPOINT ["python3", "./use_bs.py"]
