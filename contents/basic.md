@@ -4,6 +4,7 @@
 
 - [GAN](https://arxiv.org/abs/1406.2661)
 - [DCGAN](https://arxiv.org/abs/1511.06434)
+- [LAPGAN](https://arxiv.org/abs/1506.05751), CVPR
 
 ##### Conditional GAN
 
@@ -36,5 +37,3 @@
 
 - [Relativistic Discriminator](https://arxiv.org/abs/1807.00734)
 - [U-Net GAN](https://arxiv.org/pdf/2002.12655.pdf), CVPR2020
-
-##### Glow

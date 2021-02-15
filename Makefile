@@ -21,6 +21,11 @@ generate:
 		echo "\n\n" >> README.md;\
 	done
 
+# poetry
+install:
+	@curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+	@poetry self:update
+
 # help
 .PHONY:	h
 h:	## this help
