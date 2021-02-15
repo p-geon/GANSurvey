@@ -31,7 +31,7 @@ export DIR_CITATION=citation
 
 .PHONY: b
 b: ## build notebook & lab 
-	cd $(DIR_CITATIOn) &&\
+	cd $(DIR_CITATION) &&\
 	docker build -f ./Dockerfile -t $(NAME_CONTAINER) .
 .PHONY: r
 r: ## run jupyter notebook

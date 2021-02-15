@@ -1,1 +1,21 @@
+# GP
+tqdm==4.54.0
+easydict==1.9
+
+# base
+numpy==1.19.5
+scikit-image==0.18.1
+
+# scrapers
+beautifulsoup4==4.9.3
+requests==2.25.1
+## https://pypi.org/project/arxiv/
+arxiv==0.5.3
+## https://pypi.org/project/scholarly/
 scholarly==1.0.7
+## https://pypi.org/project/paperscraper/
+paperscraper==0.0.1
+
+# handling PDF
+pdf2image==1.14.0
+poppler-utils==0.1.0

@@ -1,6 +1,7 @@
 from scholarly import scholarly
 
-print(next(scholarly.search_author('Ian Goodfellow')))
+def search_author(author='Ian Goodfellow'):
+    print(next(scholarly.search_author(author)))
 
 def _():
     print(0)
