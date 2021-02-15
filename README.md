@@ -236,6 +236,8 @@ GANでよく使われるデータセットまとめ
 - Efficient Conditional GAN Transfer with Knowledge Propagation across Classes, [paper](https://arxiv.org/abs/2102.06696)
 - Few-Shot Adversarial Learning of Realistic Neural Talking Head Models, [paper](https://arxiv.org/abs/1905.08233)
 - Dual-Agent GAN, [paper](https://proceedings.neurips.cc/paper/2017/file/7cbbc409ec990f19c78c75bd1e06f215-Paper.pdf)/[poster](https://zhaoj9014.github.io/pub/ZHAOJIAN_ID70.pdf)
+- Triple Generative Adversarial Nets, [paper](https://arxiv.org/pdf/1703.02291.pdf)
+- GraphGAN, [paper](https://ojs.aaai.org/index.php/AAAI/article/view/11872), (AAAI2018)
 
 ## Quantum
 
