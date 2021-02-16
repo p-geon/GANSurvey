@@ -125,7 +125,9 @@ GANでよく使われるデータセットまとめ
 - SAGAN
 - PGGAN
 - BigGAN
+  - [BigBiGAN](https://arxiv.org/abs/1907.02544), [TFHub](https://tfhub.dev/s?publisher=deepmind&q=bigbigan)
 - [StyleGANv2](https://arxiv.org/abs/2006.06676), ([GitHub](https://github.com/NVlabs/stylegan2-ada))
+
 
 
 <a id="Image2Image"></a>
@@ -142,6 +144,7 @@ GANでよく使われるデータセットまとめ
   - https://tachibanayoshino.github.io/AnimeGANv2/
   - https://www.itmedia.co.jp/news/articles/2008/11/news096.html
 
+- [CountRGAN](https://arxiv.org/abs/2009.05199)
 
 
 <a id="SuperResolution"></a>
@@ -150,6 +153,13 @@ GANでよく使われるデータセットまとめ
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
 
+
+
+## サーベイ論文
+
+- [Generative Adversarial Networks in Computer Vision: A Survey and Taxonomy](https://arxiv.org/abs/1906.01529), ([GitHub](https://github.com/sheqi/GAN_Review))
+- [A Survey on Generative Adversarial Networks: Variants, Applications, and Training](https://arxiv.org/abs/2006.05132)
+- [A Mathematical Introduction to Generative Adversarial Nets (GAN)](https://arxiv.org/abs/2009.00169)
 
 
 <a id="Voice"></a>
@@ -205,16 +215,13 @@ GANでよく使われるデータセットまとめ
 
 
 
-## 
-
-
 <a id="Reinforcement"></a>
 
 ## 強化学習
 
 - [Generative Adversarial Imitation Learning](https://arxiv.org/abs/1606.03476)
 - [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/abs/1910.01077)
-
+- [Triple-GAIL](https://arxiv.org/abs/2005.10622)
 
 
 <a id="VAE"></a>
@@ -236,14 +243,29 @@ GANでよく使われるデータセットまとめ
 - Efficient Conditional GAN Transfer with Knowledge Propagation across Classes, [paper](https://arxiv.org/abs/2102.06696)
 - Few-Shot Adversarial Learning of Realistic Neural Talking Head Models, [paper](https://arxiv.org/abs/1905.08233)
 - Dual-Agent GAN, [paper](https://proceedings.neurips.cc/paper/2017/file/7cbbc409ec990f19c78c75bd1e06f215-Paper.pdf)/[poster](https://zhaoj9014.github.io/pub/ZHAOJIAN_ID70.pdf)
+- Triple Generative Adversarial Nets, [paper](https://arxiv.org/pdf/1703.02291.pdf)
+- GraphGAN, [paper](https://ojs.aaai.org/index.php/AAAI/article/view/11872), (AAAI2018)
+- PriorGAN, [paper](https://arxiv.org/abs/2006.16990)
 
 ## Quantum
 
 - Quantum GAN, [paper](https://arxiv.org/abs/1804.08641)
 - Quantum generative adversarial learning in a superconducting quantum circuit, [paper](https://advances.sciencemag.org/content/5/1/eaav2761/tab-pdf)
 
-## 軽量化
+**軽量化**
 
 - GAN Slimming: All-in-One GAN Compression by A Unified Optimization Framework, [paper](https://arxiv.org/abs/2008.11062)
+
+**Transformer**
+
+- [TransGAN](https://arxiv.org/abs/2102.07074)
+
+**OCR**
+
+- [TLGAN](https://arxiv.org/pdf/2010.11547.pdf)
+
+**bio**
+
+- [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)
 
 

@@ -11,3 +11,5 @@
 - [AnimeGAN](https://link.springer.com/chapter/10.1007/978-981-15-5577-0_18)
   - https://tachibanayoshino.github.io/AnimeGANv2/
   - https://www.itmedia.co.jp/news/articles/2008/11/news096.html
+
+- [CountRGAN](https://arxiv.org/abs/2009.05199)
