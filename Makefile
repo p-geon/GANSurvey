@@ -4,6 +4,7 @@ export PWD=`pwd`
 export COMMIT_MESSAGE=autocommit > README.md
 export IF_COMMIT_MESSAGE=`git commit -m`
 export IF_NO_COMMIT_MESSAGE=`git commit -m "mod: $(COMMIT_MESSAGE)"`
+export GIT_BRANCH_NAME=`git symbolic-ref --short HEAD`
 p: ## git (add->commit->push)
 	@make generate
 	@git add README.md
@@ -11,7 +12,7 @@ p: ## git (add->commit->push)
 		, $(IF_COMMIT_MESSAGE) "$(m)"\
 		, $(IF_NO_COMMIT_MESSAGE)\
 	)
-	@git push origin main
+	@git push origin $(GIT_BRANCH_NAME)
 
 # -----------------------------------
 export DIR_MD=contents
