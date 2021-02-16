@@ -10,7 +10,7 @@
 - GraphGAN, [paper](https://ojs.aaai.org/index.php/AAAI/article/view/11872), (AAAI2018)
 - PriorGAN, [paper](https://arxiv.org/abs/2006.16990)
 
-## Quantum
+**Quantum**
 
 - Quantum GAN, [paper](https://arxiv.org/abs/1804.08641)
 - Quantum generative adversarial learning in a superconducting quantum circuit, [paper](https://advances.sciencemag.org/content/5/1/eaav2761/tab-pdf)
