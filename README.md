@@ -27,6 +27,7 @@ GANでよく使われるデータセットまとめ
 - [Sliced Wasserstein distance](https://arxiv.org/abs/1803.11188.pdf)
 - [LPIPS distance](https://arxiv.org/abs/1801.03924.pdf)
 - Perceptual Path Length -> StyleGANv2
+- Human Study (どっちのほうがよく生成できているか判定)
 
 
 ## サーベイ論文
@@ -43,6 +44,7 @@ GANでよく使われるデータセットまとめ
 - [GAN](https://arxiv.org/abs/1406.2661)
 - [DCGAN](https://arxiv.org/abs/1511.06434)
 - [cGAN](https://arxiv.org/abs/1411.1784)
+- [Adversarial Autoencoders](https://arxiv.org/abs/1511.05644)
 
 ##### GAN-variant
 
@@ -80,6 +82,9 @@ GANでよく使われるデータセットまとめ
 
 - [Localized GAN](https://arxiv.org/abs/1711.06020)
 - [Are GANs Created Equal? A Large-Scale Study](https://arxiv.org/abs/1711.10337)
+- [Discriminator Rejection Sampling](https://arxiv.org/abs/1810.06758)
+- [How good is my GAN?](https://arxiv.org/abs/1807.09499)
+- [GANs May Have No Nash Equilibria](https://arxiv.org/abs/2002.09124)
 
 
 <a id="Normalization"></a>
@@ -98,10 +103,10 @@ GANでよく使われるデータセットまとめ
 
 ## 学習安定性
 
+- [Stabilizing Training of Generative Adversarial Networks through Regularization](https://arxiv.org/abs/1705.09367)
+- [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients](https://arxiv.org/abs/1711.09404)
+- [Mode Seeking Generative Adversarial Networks for Diverse Image Synthes](https://arxiv.org/abs/1903.05628)
 - [Smoothness and Stability in GANs](https://openreview.net/forum?id=HJeOekHKwr), 19.09
-
-<a id="AnomalyDetection"></a>
-
 
 ##### ロバストなGAN
 
@@ -111,10 +116,14 @@ GANでよく使われるデータセットまとめ
 
 <a id="Augmentation"></a>
 
-## GAN+データ拡張
+## GANで使うデータ拡張
 
 - [Data Augmentation Generative Adversarial Networks](https://arxiv.org/abs/1711.04340)
 - [Image Augmentations for GAN Training](https://arxiv.org/abs/2006.02595)
+
+## GANをデータ拡張に使う
+
+- [Data Augmentation Using GANs](https://arxiv.org/abs/1904.09135)
 
 
 <a id="LowData"></a>
@@ -146,6 +155,7 @@ GANでよく使われるデータセットまとめ
 ## 画像変換
 
 - pix2pix
+  - pix2pix HD
 - CycleGAN
 - [UNIT](https://arxiv.org/abs/1703.00848)
 - [MUNIT](https://arxiv.org/abs/1804.04732)
@@ -154,13 +164,19 @@ GANでよく使われるデータセットまとめ
 - [AnimeGAN](https://link.springer.com/chapter/10.1007/978-981-15-5577-0_18)
   - https://tachibanayoshino.github.io/AnimeGANv2/
   - https://www.itmedia.co.jp/news/articles/2008/11/news096.html
+- InstaGAN
+- GauGAN(Spade)
+
+- Vid2Vid
+  - few-shot Vid2Vid
 
 - [CountRGAN](https://arxiv.org/abs/2009.05199)
 
+##### 穴埋めタスク
 
-<a id="SuperResolution"></a>
+- [Context Encoders](https://arxiv.org/abs/1604.07379)
 
-## 超解像
+##### 超解像
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
 
@@ -214,9 +230,11 @@ fMRI
 
 <a id="Material"></a>
 
-## 物性
+## マテリアル系
 
+- [https://arxiv.org/pdf/1805.07615.pdf](https://arxiv.org/abs/1805.07615)
 - [Generative Adversarial Networks for Crystal Structure Prediction](https://pubs.acs.org/doi/10.1021/acscentsci.0c00426)
+- [Designing complex architectured materials with generative adversarial networks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182413/pdf/aaz4169.pdf)
 
 
 
@@ -284,7 +302,7 @@ fMRI
 
 - [TLGAN](https://arxiv.org/pdf/2010.11547.pdf)
 
-**bio**
+**バイオ系**
 
 - [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)
 

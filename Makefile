@@ -25,7 +25,7 @@ generate:
 	@echo "\n\n" >> README.md
 	@for f in $(MD_CONTENTS); do\
 		echo $$f;\
-		cat $$f >> README.md;\
+		cat $(DIR_MD)/$$f >> README.md;\
 		echo "\n\n" >> README.md;\
 	done
 

@@ -2,10 +2,10 @@
 
 ## 学習安定性
 
+- [Stabilizing Training of Generative Adversarial Networks through Regularization](https://arxiv.org/abs/1705.09367)
+- [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients](https://arxiv.org/abs/1711.09404)
+- [Mode Seeking Generative Adversarial Networks for Diverse Image Synthes](https://arxiv.org/abs/1903.05628)
 - [Smoothness and Stability in GANs](https://openreview.net/forum?id=HJeOekHKwr), 19.09
-
-<a id="AnomalyDetection"></a>
-
 
 ##### ロバストなGAN
 
