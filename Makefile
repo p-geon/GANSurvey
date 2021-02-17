@@ -16,7 +16,10 @@ p: ## git (add->commit->push)
 
 # -----------------------------------
 export DIR_MD=contents
-export MD_CONTENTS=`\find ./$(DIR_MD) -name '*.md' | sort`
+export MD_CONTENTS=`LC_COLLATE=en_US ls ./$(DIR_MD)`
+echo:
+	echo "$(MD_CONTENTS)¥n"
+
 generate:
 	@cat ./_index.md > README.md
 	@echo "\n\n" >> README.md

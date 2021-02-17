@@ -4,14 +4,12 @@
 
 - [GAN](https://arxiv.org/abs/1406.2661)
 - [DCGAN](https://arxiv.org/abs/1511.06434)
-- [LAPGAN](https://arxiv.org/abs/1506.05751), CVPR
-
-##### Conditional GAN
-
 - [cGAN](https://arxiv.org/abs/1411.1784)
 
 ##### GAN-variant
 
+- [Adversarially Learned Inference](https://arxiv.org/abs/1606.00704)
+- [BiGAN](https://arxiv.org/abs/1605.09782v7)
 - [InfoGAN](https://arxiv.org/abs/1606.03657), NIPS2016
     - [ss-InfoGAN](https://arxiv.org/abs/1707.04487), CVPR201?
 - [f-GAN](https://arxiv.org/abs/1606.00709)
