@@ -1,6 +1,6 @@
 <a id="LowData"></a>
 
-## 少量データによる学習
+## 少量データによるGANの学習
 
 - [SinGAN](https://arxiv.org/abs/1905.01164), ICCV2019**bestpaper**
 - [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2006.10738)
