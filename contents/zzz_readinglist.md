@@ -27,6 +27,6 @@
 
 - [TLGAN](https://arxiv.org/pdf/2010.11547.pdf)
 
-**bio**
+**バイオ系**
 
 - [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)

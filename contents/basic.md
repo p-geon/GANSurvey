@@ -5,6 +5,7 @@
 - [GAN](https://arxiv.org/abs/1406.2661)
 - [DCGAN](https://arxiv.org/abs/1511.06434)
 - [cGAN](https://arxiv.org/abs/1411.1784)
+- [Adversarial Autoencoders](https://arxiv.org/abs/1511.05644)
 
 ##### GAN-variant
 

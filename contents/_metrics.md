@@ -7,3 +7,4 @@
 - [Sliced Wasserstein distance](https://arxiv.org/abs/1803.11188.pdf)
 - [LPIPS distance](https://arxiv.org/abs/1801.03924.pdf)
 - Perceptual Path Length -> StyleGANv2
+- Human Study (どっちのほうがよく生成できているか判定)
