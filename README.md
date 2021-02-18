@@ -157,20 +157,30 @@ GANでよく使われるデータセットまとめ
 - pix2pix
   - pix2pix HD
 - CycleGAN
-- [UNIT](https://arxiv.org/abs/1703.00848)
-- [MUNIT](https://arxiv.org/abs/1804.04732)
+  - BiCycleGAN, [paper](https://arxiv.org/abs/1711.11586)/[poster](https://junyanz.github.io/BicycleGAN/index_files/poster_nips_v3.pdf)
+
 - [UGATIT](https://arxiv.org/abs/1907.10830)
   - [メルアイコン変換器を作った話](https://qiita.com/zassou65535/items/4bc42fa36203c13fe2d3)
 - [AnimeGAN](https://link.springer.com/chapter/10.1007/978-981-15-5577-0_18)
   - https://tachibanayoshino.github.io/AnimeGANv2/
   - https://www.itmedia.co.jp/news/articles/2008/11/news096.html
-- InstaGAN
-- GauGAN(Spade)
 
 - Vid2Vid
   - few-shot Vid2Vid
 
 - [CountRGAN](https://arxiv.org/abs/2009.05199)
+
+**AdaIN系**
+
+- InstaGAN
+- GauGAN(Spade)
+- High-DT, [paper](https://arxiv.org/abs/2003.08791)/[git](https://github.com/saic-mdal/HiDT)
+
+**UNIT系列**
+
+- [UNIT](https://arxiv.org/abs/1703.00848)
+- [MUNIT](https://arxiv.org/abs/1804.04732)
+- [FUNIT](https://arxiv.org/abs/1905.01723)
 
 ##### 穴埋めタスク
 
@@ -179,6 +189,12 @@ GANでよく使われるデータセットまとめ
 ##### 超解像
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
+
+##### Colarization
+
+- [Style2Paints](https://github.com/lllyasviel/style2paints/blob/master/papers/sa.pdf)
+- [SketchyGAN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_SketchyGAN_Towards_Diverse_CVPR_2018_paper.pdf), CVPR2018
+
 
 
 
@@ -267,6 +283,7 @@ fMRI
 ## VAE
 
 - VAE-GAN
+- [cVAE-GAN](https://arxiv.org/abs/1703.10155)
 
 ## Flow
 
@@ -305,6 +322,14 @@ fMRI
 **バイオ系**
 
 - [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)
+
+
+## 資料
+
+- KL-Divergence
+- JS-Divergence
+- Checker Board Archifact
+  - [Deconvolution and Checkerboard Artifacts (medium)](https://distill.pub/2016/deconv-checkerboard/)
 
 
 ## 資料
