@@ -3,6 +3,7 @@
 ## VAE
 
 - VAE-GAN
+- [cVAE-GAN](https://arxiv.org/abs/1703.10155)
 
 ## Flow
 
