@@ -2,8 +2,8 @@
 
 ## ポーズ系
 
-- [MoCoGAN](https://arxiv.org/abs/1707.04993
-- [Liquid Warping GAN](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf), ICCV2019)
+- [MoCoGAN](https://arxiv.org/abs/1707.04993)
+- [Liquid Warping GAN](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf), ICCV2019
 
 **music2dance**
 
