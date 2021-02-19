@@ -46,19 +46,23 @@ GANでよく使われるデータセットまとめ
 - [cGAN](https://arxiv.org/abs/1411.1784)
 - [Adversarial Autoencoders](https://arxiv.org/abs/1511.05644)
 
-##### GAN-variant
+**GAN-variant**
 
 - [Adversarially Learned Inference](https://arxiv.org/abs/1606.00704)
 - [BiGAN](https://arxiv.org/abs/1605.09782v7)
 - [InfoGAN](https://arxiv.org/abs/1606.03657), NIPS2016
     - [ss-InfoGAN](https://arxiv.org/abs/1707.04487), CVPR201?
 - [f-GAN](https://arxiv.org/abs/1606.00709)
-- [EBGAN](https://arxiv.org/abs/1609.03126)
 - [UnrolledGAN](https://arxiv.org/abs/1611.02163), ICLR2017
 - [DRAGAN](https://arxiv.org/abs/1705.07215)
 - [Dirac-GAN](https://arxiv.org/abs/1801.04406)
 
-##### ロス設計
+**energy-base**
+
+- [EBGAN](https://arxiv.org/abs/1609.03126)
+- [Generative Adversarial Networks as Variational Training of Energy Based Models](https://arxiv.org/abs/1611.01799)
+
+**ロス設計**
 
 - [LSGAN](https://arxiv.org/abs/1611.04076)
     - pros/cons
@@ -66,12 +70,12 @@ GANでよく使われるデータセットまとめ
 - [WGAN](https://arxiv.org/abs/1701.07875)
 - [WGAN-gp](https://arxiv.org/pdf/1704.00028.pdf)
 
-##### 出力構造
+**出力構造**
 
 - [ACGAN](https://arxiv.org/abs/1610.09585)
 - [cGANs with Projection Discriminator](https://arxiv.org/abs/1802.05637)
 
-##### Discriminator
+**Discriminator**
 
 - [Relativistic Discriminator](https://arxiv.org/abs/1807.00734)
 - [U-Net GAN](https://arxiv.org/pdf/2002.12655.pdf), CVPR2020
@@ -143,13 +147,15 @@ GANでよく使われるデータセットまとめ
 ## 高解像度系
 
 - [LAPGAN](https://arxiv.org/abs/1506.05751), CVPR
-- SAGAN
 - PGGAN
 - BigGAN
   - [BigBiGAN](https://arxiv.org/abs/1907.02544), [TFHub](https://tfhub.dev/s?publisher=deepmind&q=bigbigan)
 - StyleGAN
 - [StyleGANv2](https://arxiv.org/abs/2006.06676), ([GitHub](https://github.com/NVlabs/stylegan2-ada))
 
+TGAN系列
+
+- [TGAN](https://arxiv.org/abs/1901.09953)
 
 
 <a id="Image2Image"></a>
@@ -193,6 +199,21 @@ GANでよく使われるデータセットまとめ
 
 - Vid2Vid
 - few-shot Vid2Vid
+
+
+## テキスト生成系
+
+- [Text Generation Based on Generative Adversarial Nets with Latent Variable](https://arxiv.org/abs/1712.00170)
+
+
+
+
+## Text2Image
+
+- [GAN-GLS](https://arxiv.org/abs/1605.05396)
+- [StackGAN](https://arxiv.org/abs/1612.03242)
+- [StackGAN++](https://arxiv.org/abs/1710.10916)
+- [Obj-GANs](https://arxiv.org/abs/1902.10740)
 
 
 <a id="Voice"></a>
@@ -262,8 +283,19 @@ fMRI
 
 ## ポーズ系
 
-- [Liquid Warping GAN](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf), ICCV2019
+- [MoCoGAN](https://arxiv.org/abs/1707.04993
+- [Liquid Warping GAN](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf), ICCV2019)
 
+**music2dance**
+
+- [Dancing to Music](https://papers.nips.cc/paper/2019/file/7ca57a9f85a19a6e4b9a248c1daca185-Paper.pdf)
+- [DeepDance](http://zju-capg.org/research_en_music_deepdance.html)
+- [Learning to dance: A graph convolutional adversarial network to generate realistic dance motions from audio](https://arxiv.org/abs/2011.12999)
+
+
+## Privacy & Fairness
+
+- [VGAN-Based Image Representation Learning for Privacy-Preserving Facial Expression Recognition](https://arxiv.org/abs/1803.07100)
 
 
 <a id="Reinforcement"></a>
