@@ -1,6 +1,6 @@
 <a id="Metrics"></a>
 
-## Metrics
+## 評価指標 / Metrics
 
 - [Inception Score](https://arxiv.org/abs/1606.03498.pdf)
 - [Frechet Inception Distance](https://arxiv.org/abs/1706.08500.pdf)

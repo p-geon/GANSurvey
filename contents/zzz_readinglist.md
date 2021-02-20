@@ -31,6 +31,10 @@
 
 - [TLGAN](https://arxiv.org/pdf/2010.11547.pdf)
 
-**バイオ系**
+**saliency map**
+
+- [SalGAN](https://arxiv.org/abs/1701.01081)
+
+**バイオ系/Bioligy**
 
 - [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)

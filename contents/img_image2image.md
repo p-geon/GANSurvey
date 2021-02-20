@@ -28,6 +28,7 @@
 
 **クロスドメイン / Cross Domain**
 
+- [DiscoGAN](https://arxiv.org/pdf/1703.05192.pdf)
 - [StarGAN](https://arxiv.org/abs/1711.09020)
   - [StarGAN v2](https://arxiv.org/abs/1912.01865)
 - [XFork](https://arxiv.org/abs/1803.03396)
@@ -36,6 +37,8 @@
 **超解像 / Single Image Super-Resolution(SISR)**
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
+- [ESRGAN](https://arxiv.org/abs/1809.00219), ECCV2018workshop
+- [SFTGAN](https://arxiv.org/abs/1804.02815), CVPR2018
 
 **色付け・色塗り / Colarization**
 
@@ -44,5 +47,6 @@
 
 **動画生成 / Video Generation**
 
+- ReCycleGAN, [paper](https://www.cs.cmu.edu/~aayushb/Recycle-GAN/recycle_gan.pdf)
 - Vid2Vid
 - few-shot Vid2Vid
