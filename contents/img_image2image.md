@@ -26,6 +26,13 @@
 
 - [Context Encoders](https://arxiv.org/abs/1604.07379)
 
+**クロスドメイン**
+
+- [StarGAN](https://arxiv.org/abs/1711.09020)
+  - [StarGAN v2](https://arxiv.org/abs/1912.01865)
+- [XFork](https://arxiv.org/abs/1803.03396)
+- [SelectionGAN](https://arxiv.org/abs/1904.06807)
+
 **超解像**
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
