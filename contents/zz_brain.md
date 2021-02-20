@@ -1,6 +1,6 @@
 <a id="Brain"></a>
 
-## Brain-Decoding
+## デコーディング / Brain-Decoding
 
 EEG
 

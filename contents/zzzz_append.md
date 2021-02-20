@@ -1,4 +1,4 @@
-## 資料
+## 資料 / Appendix
 
 - KL-Divergence
 - JS-Divergence

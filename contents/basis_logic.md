@@ -1,4 +1,4 @@
-## 理論寄りの論文
+## 理論寄りの論文 / GAN Logic, Convergence...
 
 - [Localized GAN](https://arxiv.org/abs/1711.06020)
 - [Are GANs Created Equal? A Large-Scale Study](https://arxiv.org/abs/1711.10337)

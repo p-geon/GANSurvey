@@ -82,7 +82,7 @@ GANでよく使われるデータセットまとめ
 
 
 
-## 理論寄りの論文
+## 理論寄りの論文 / GAN Logic, Convergence...
 
 - [Localized GAN](https://arxiv.org/abs/1711.06020)
 - [Are GANs Created Equal? A Large-Scale Study](https://arxiv.org/abs/1711.10337)
@@ -93,7 +93,7 @@ GANでよく使われるデータセットまとめ
 
 <a id="Normalization"></a>
 
-## Normalization
+## 正規化 / Normalization
 
 - [Batch Normalization](https://arxiv.org/abs/1502.03167)
 - [Instance Normalization](https://arxiv.org/abs/1607.08022)
@@ -105,14 +105,14 @@ GANでよく使われるデータセットまとめ
 
 <a id="Stability"></a>
 
-## 学習安定性
+## 学習安定性 / Training Stability
 
 - [Stabilizing Training of Generative Adversarial Networks through Regularization](https://arxiv.org/abs/1705.09367)
 - [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients](https://arxiv.org/abs/1711.09404)
 - [Mode Seeking Generative Adversarial Networks for Diverse Image Synthes](https://arxiv.org/abs/1903.05628)
 - [Smoothness and Stability in GANs](https://openreview.net/forum?id=HJeOekHKwr), 19.09
 
-##### ロバストなGAN
+##### ロバストなGAN / Robustness
 
 - [RoCGAN](https://arxiv.org/pdf/1805.08657.pdf), ICLR2019
 - [RcGAN](https://arxiv.org/pdf/1811.03205.pdf), NeurIPS2018
@@ -120,14 +120,14 @@ GANでよく使われるデータセットまとめ
 
 <a id="Augmentation"></a>
 
-## データ拡張
+## データ拡張 / Data Augmentation
 
-**GANで使うデータ拡張**
+**GANで使うデータ拡張 / DA for GAN**
 
 - [Data Augmentation Generative Adversarial Networks](https://arxiv.org/abs/1711.04340)
 - [Image Augmentations for GAN Training](https://arxiv.org/abs/2006.02595)
 
-**GANをデータ拡張に使う**
+**GANをデータ拡張に使う / GAN for NNs**
 
 - [Data Augmentation Using GANs](https://arxiv.org/abs/1904.09135)
 
@@ -144,7 +144,7 @@ GANでよく使われるデータセットまとめ
 
 <a id="HighReso"></a>
 
-## 高解像度系
+## 高解像度系 / High-Resolution Image Synthesis
 
 - [LAPGAN](https://arxiv.org/abs/1506.05751), CVPR
 - PGGAN
@@ -160,7 +160,7 @@ TGAN系列
 
 <a id="Image2Image"></a>
 
-## 画像変換
+## 画像変換 / Image2Image Translation
 
 - pix2pix
   - pix2pix HD
@@ -182,33 +182,33 @@ TGAN系列
 - [MUNIT](https://arxiv.org/abs/1804.04732)
 - [FUNIT](https://arxiv.org/abs/1905.01723)
 
-**穴埋めタスク**
+**穴埋めタスク / Filling**
 
 - [Context Encoders](https://arxiv.org/abs/1604.07379)
 
-**クロスドメイン**
+**クロスドメイン / Cross Domain**
 
 - [StarGAN](https://arxiv.org/abs/1711.09020)
   - [StarGAN v2](https://arxiv.org/abs/1912.01865)
 - [XFork](https://arxiv.org/abs/1803.03396)
 - [SelectionGAN](https://arxiv.org/abs/1904.06807)
 
-**超解像**
+**超解像 / Single Image Super-Resolution(SISR)**
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
 
-**Colarization**
+**色付け・色塗り / Colarization**
 
 - [Style2Paints](https://github.com/lllyasviel/style2paints/blob/master/papers/sa.pdf)
 - [SketchyGAN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_SketchyGAN_Towards_Diverse_CVPR_2018_paper.pdf), CVPR2018
 
-**動画系**
+**動画生成 / Video Generation**
 
 - Vid2Vid
 - few-shot Vid2Vid
 
 
-## テキスト生成系
+## テキスト生成系 / Text Generation
 
 - [Text Generation Based on Generative Adversarial Nets with Latent Variable](https://arxiv.org/abs/1712.00170)
 
@@ -224,12 +224,13 @@ TGAN系列
 
 <a id="Voice"></a>
 
-## Voice Conversion
+## 声質変換 / Voice Conversion
 
 - MelGAN
 - MBMelGAN
 - StyleMelGAN
 - [HiFi-GAN](https://arxiv.org/abs/2010.05646)
+
 
 - [CycleGAN-VC](https://arxiv.org/abs/1711.11293)
   - [CycleGAN-VC2](https://arxiv.org/abs/1904.04631)
@@ -237,19 +238,19 @@ TGAN系列
 - [StarGAN-VC](https://arxiv.org/abs/1806.02169)
   - [StarGAN-VC2](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2236.pdf)
 
-## TTS
+## 音声合成 / Text-to-Speech(TTS)
 
 - GANTTS
 
 
-## 3D系
+## 3D
 
 - [3DGAN](https://arxiv.org/abs/1610.07584)
 
 
 <a id="Anomaly"></a>
 
-## 異常検知
+## 異常検知 / Anomaly Detection
 
 - [AnoGAN](https://arxiv.org/abs/1703.05921)
 - [Dual Auto-Encoders GAN]()
@@ -258,7 +259,7 @@ TGAN系列
 
 <a id="Brain"></a>
 
-## Brain-Decoding
+## デコーディング / Brain-Decoding
 
 EEG
 
@@ -277,7 +278,7 @@ fMRI
 
 <a id="Material"></a>
 
-## マテリアル系
+## マテリアル系 / Materials Engineering
 
 - [https://arxiv.org/pdf/1805.07615.pdf](https://arxiv.org/abs/1805.07615)
 - [Generative Adversarial Networks for Crystal Structure Prediction](https://pubs.acs.org/doi/10.1021/acscentsci.0c00426)
@@ -287,14 +288,14 @@ fMRI
 
 <a id="NAS"></a>
 
-## NAS
+## Neural Architecture Search (NAS)
 
 - [AutoGAN](https://arxiv.org/abs/1908.03835)
 
 
 <a id="Pose"></a>
 
-## ポーズ系
+## ポーズ系 / Pose Estimation, Pose Generation
 
 - [MoCoGAN](https://arxiv.org/abs/1707.04993)
 - [Liquid Warping GAN](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf), ICCV2019
@@ -313,7 +314,7 @@ fMRI
 
 <a id="Reinforcement"></a>
 
-## 強化学習
+## 強化学習 / Reinforcement Learning
 
 - [Generative Adversarial Imitation Learning](https://arxiv.org/abs/1606.03476)
 - [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/abs/1910.01077)
@@ -330,6 +331,10 @@ fMRI
 ## Flow
 
 - [Flow-GAN](https://arxiv.org/abs/1705.08868)
+
+
+
+----
 
 
 ----
@@ -366,7 +371,7 @@ fMRI
 - [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)
 
 
-## 資料
+## 資料 / Appendix
 
 - KL-Divergence
 - JS-Divergence
