@@ -1,6 +1,6 @@
 <a id="Normalization"></a>
 
-## Normalization
+## 正規化 / Normalization
 
 - [Batch Normalization](https://arxiv.org/abs/1502.03167)
 - [Instance Normalization](https://arxiv.org/abs/1607.08022)

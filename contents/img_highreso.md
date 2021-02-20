@@ -1,6 +1,6 @@
 <a id="HighReso"></a>
 
-## 高解像度系
+## 高解像度系 / High-Resolution Image Synthesis
 
 - [LAPGAN](https://arxiv.org/abs/1506.05751), CVPR
 - PGGAN

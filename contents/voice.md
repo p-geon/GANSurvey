@@ -1,11 +1,12 @@
 <a id="Voice"></a>
 
-## Voice Conversion
+## 声質変換 / Voice Conversion
 
 - MelGAN
 - MBMelGAN
 - StyleMelGAN
 - [HiFi-GAN](https://arxiv.org/abs/2010.05646)
+
 
 - [CycleGAN-VC](https://arxiv.org/abs/1711.11293)
   - [CycleGAN-VC2](https://arxiv.org/abs/1904.04631)
@@ -13,6 +14,6 @@
 - [StarGAN-VC](https://arxiv.org/abs/1806.02169)
   - [StarGAN-VC2](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2236.pdf)
 
-## TTS
+## 音声合成 / Text-to-Speech(TTS)
 
 - GANTTS

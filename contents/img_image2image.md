@@ -1,6 +1,6 @@
 <a id="Image2Image"></a>
 
-## 画像変換
+## 画像変換 / Image2Image Translation
 
 - pix2pix
   - pix2pix HD
@@ -22,27 +22,27 @@
 - [MUNIT](https://arxiv.org/abs/1804.04732)
 - [FUNIT](https://arxiv.org/abs/1905.01723)
 
-**穴埋めタスク**
+**穴埋めタスク / Filling**
 
 - [Context Encoders](https://arxiv.org/abs/1604.07379)
 
-**クロスドメイン**
+**クロスドメイン / Cross Domain**
 
 - [StarGAN](https://arxiv.org/abs/1711.09020)
   - [StarGAN v2](https://arxiv.org/abs/1912.01865)
 - [XFork](https://arxiv.org/abs/1803.03396)
 - [SelectionGAN](https://arxiv.org/abs/1904.06807)
 
-**超解像**
+**超解像 / Single Image Super-Resolution(SISR)**
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
 
-**Colarization**
+**色付け・色塗り / Colarization**
 
 - [Style2Paints](https://github.com/lllyasviel/style2paints/blob/master/papers/sa.pdf)
 - [SketchyGAN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_SketchyGAN_Towards_Diverse_CVPR_2018_paper.pdf), CVPR2018
 
-**動画系**
+**動画生成 / Video Generation**
 
 - Vid2Vid
 - few-shot Vid2Vid

@@ -1,6 +1,6 @@
 <a id="Reinforcement"></a>
 
-## 強化学習
+## 強化学習 / Reinforcement Learning
 
 - [Generative Adversarial Imitation Learning](https://arxiv.org/abs/1606.03476)
 - [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/abs/1910.01077)

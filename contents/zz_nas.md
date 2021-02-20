@@ -1,5 +1,5 @@
 <a id="NAS"></a>
 
-## NAS
+## Neural Architecture Search (NAS)
 
 - [AutoGAN](https://arxiv.org/abs/1908.03835)

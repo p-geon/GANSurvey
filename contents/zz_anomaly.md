@@ -1,6 +1,6 @@
 <a id="Anomaly"></a>
 
-## 異常検知
+## 異常検知 / Anomaly Detection
 
 - [AnoGAN](https://arxiv.org/abs/1703.05921)
 - [Dual Auto-Encoders GAN]()
