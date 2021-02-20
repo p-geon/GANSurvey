@@ -188,6 +188,7 @@ TGAN系列
 
 **クロスドメイン / Cross Domain**
 
+- [DiscoGAN](https://arxiv.org/pdf/1703.05192.pdf)
 - [StarGAN](https://arxiv.org/abs/1711.09020)
   - [StarGAN v2](https://arxiv.org/abs/1912.01865)
 - [XFork](https://arxiv.org/abs/1803.03396)
@@ -196,6 +197,8 @@ TGAN系列
 **超解像 / Single Image Super-Resolution(SISR)**
 
 - [SRGAN](https://arxiv.org/abs/1609.04802)
+- [ESRGAN](https://arxiv.org/abs/1809.00219), ECCV2018workshop
+- [SFTGAN](https://arxiv.org/abs/1804.02815), CVPR2018
 
 **色付け・色塗り / Colarization**
 
@@ -204,6 +207,7 @@ TGAN系列
 
 **動画生成 / Video Generation**
 
+- ReCycleGAN, [paper](https://www.cs.cmu.edu/~aayushb/Recycle-GAN/recycle_gan.pdf)
 - Vid2Vid
 - few-shot Vid2Vid
 
@@ -237,6 +241,9 @@ TGAN系列
   - [CycleGAN-VC3](https://isca-speech.org/archive/Interspeech_2020/pdfs/2280.pdf)
 - [StarGAN-VC](https://arxiv.org/abs/1806.02169)
   - [StarGAN-VC2](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2236.pdf)
+
+
+- [Parallel Wave-GAN](https://arxiv.org/abs/1910.11480)
 
 ## 音声合成 / Text-to-Speech(TTS)
 
@@ -366,7 +373,11 @@ fMRI
 
 - [TLGAN](https://arxiv.org/pdf/2010.11547.pdf)
 
-**バイオ系**
+**saliency map**
+
+- [SalGAN](https://arxiv.org/abs/1701.01081)
+
+**バイオ系/Bioligy**
 
 - [Gene Expression Imputation with Generative Adversarial Imputation Nets](https://www.biorxiv.org/content/10.1101/2020.06.09.141689v1)
 

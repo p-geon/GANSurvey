@@ -14,6 +14,9 @@
 - [StarGAN-VC](https://arxiv.org/abs/1806.02169)
   - [StarGAN-VC2](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2236.pdf)
 
+
+- [Parallel Wave-GAN](https://arxiv.org/abs/1910.11480)
+
 ## 音声合成 / Text-to-Speech(TTS)
 
 - GANTTS
