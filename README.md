@@ -1,7 +1,7 @@
 # GAN Survey
 
 
-## Dataset
+## データセット / Dataset
 
 GANでよく使われるデータセットまとめ
 
@@ -20,7 +20,7 @@ GANでよく使われるデータセットまとめ
 
 <a id="Metrics"></a>
 
-## Metrics
+## 評価指標 / Metrics
 
 - [Inception Score](https://arxiv.org/abs/1606.03498.pdf)
 - [Frechet Inception Distance](https://arxiv.org/abs/1706.08500.pdf)
@@ -30,7 +30,7 @@ GANでよく使われるデータセットまとめ
 - Human Study (どっちのほうがよく生成できているか判定)
 
 
-## サーベイ論文
+## サーベイ論文 / Survey Paper
 
 - [Generative Adversarial Networks in Computer Vision: A Survey and Taxonomy](https://arxiv.org/abs/1906.01529), ([GitHub](https://github.com/sheqi/GAN_Review))
 - [A Survey on Generative Adversarial Networks: Variants, Applications, and Training](https://arxiv.org/abs/2006.05132)
